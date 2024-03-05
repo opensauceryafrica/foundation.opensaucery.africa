@@ -16,7 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={` lg:container my-auto  mx-auto  ${jost.className}`}>
+      <body
+        className={` lg:container  my-auto   mx-auto max-h-screen   ${jost.className}`}
+      >
         {children}
       </body>
     </html>

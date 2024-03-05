@@ -4,8 +4,8 @@ import Image from 'next/image';
 
 const Header = () => {
   return (
-    <div className="flex justify-between">
-      <div className="flex fixed  py-3     w-full z-[200]   md:px-3">
+    <div className="flex justify-between h-[4rem]">
+      <div className="flex fixed  py-3     w-full z-[200]   ">
         <div
           className=" px-2
           "
